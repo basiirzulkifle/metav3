@@ -25,7 +25,7 @@ const AudioBcg = () => {
         style={{ position: "relative", zIndex: "100", display: "none" }}
         id="playAudio"
       >
-        <source src="audio/bcg.mp3" />
+        <source src="audio/solas.mp3" />
       </audio>
       <Button
         sx={{
