@@ -130,7 +130,7 @@ const Game = () => {
 
   //Get value of URL from ENV
   const viteBaseUrl = import.meta.env.VITE_BASE_URL
-
+  //console.log(viteBaseUrl)
   //player movement
   const handleClick = (e: types.MouseEvent) => {
     const dummy = dummyRef.current;
