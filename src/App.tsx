@@ -105,6 +105,9 @@ const Game = () => {
   const [mouseOver, setMouseOver] = useState<any>(false);
   const [modalState, setModalState] = useState<any>(false);
 
+  const [isVisible, setVisible] = useState({ state: false, name: "" });
+  const [clickedImage, setVideoPlay] = useState<any>(false);
+
   const [addToCartData, setAddToCartData] = useState<any>();
 
   const [boothState, setboothState] = useState({ id: 0 });
@@ -162,6 +165,12 @@ const Game = () => {
 
     setModal(true);
   };
+
+  //Video play when click
+  // const loadVideoTexture = (index: any) => {
+  //   if(index)
+  // } 
+
 
   //modal logic
   useLayoutEffect(() => {
@@ -293,9 +302,21 @@ const Game = () => {
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
         // texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
-        />
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
 
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri01" ? "video/1SingaporeFoodFestival2022.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/1SingaporeFoodFestival2022.png" : "img/1SingaporeFoodFestival2022.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri01");
+        // }}
+
+        />
         <Plane
         name="tvkiri02"
         x={-410.94}
@@ -305,8 +326,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/3Iloomination.png`}
+        // videoTexture={`${viteBaseUrl}video/3Iloomination.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri02" ? "video/3Iloomination.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/3Iloomination.png" : "img/3Iloomination.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri02");
+        // }}
         />
 
         <Plane
@@ -318,8 +351,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/5Curiography.png`}
+        // videoTexture={`${viteBaseUrl}video/5Curiography.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri03" ? "video/5Curiography.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/5Curiography.png" : "img/5Curiography.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri03");
+        // }}
         />
 
         <Plane
@@ -331,8 +376,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/7StarPropertyAwards.png`}
+        // videoTexture={`${viteBaseUrl}video/7StarPropertyAwards.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri04" ? "video/7StarPropertyAwards.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/7StarPropertyAwards.png" : "img/7StarPropertyAwards.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri04");
+        // }}
         />
 
         <Plane
@@ -344,8 +401,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/9InternationalConference.png`}
+        // videoTexture={`${viteBaseUrl}video/9InternationalConference.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri05" ? "video/9InternationalConference.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/9InternationalConference.png" : "img/9InternationalConference.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri05");
+        // }}
         />
 
         <Plane
@@ -357,8 +426,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/11VirtualStationery.png`}
+        // videoTexture={`${viteBaseUrl}video/11VirtualStationery.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri06" ? "video/11VirtualStationery.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/11VirtualStationery.png" : "img/11VirtualStationery.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri06");
+        // }}
         />
         
 
@@ -371,8 +452,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/13VirtualPhotography.png`}
+        // videoTexture={`${viteBaseUrl}video/13VirtualPhotography.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri07" ? "video/13VirtualPhotography.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/13VirtualPhotography.png" : "img/13VirtualPhotography.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri07");
+        // }}
         />
 
         <Plane
@@ -384,8 +477,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}  
+        texture={`${viteBaseUrl}img/15HorizonSquare.png`}
+        // videoTexture={`${viteBaseUrl}video/15HorizonSquare.mp4`}  
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri08" ? "video/15HorizonSquare.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/15HorizonSquare.png" : "img/15HorizonSquare.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri08");
+        // }}
         />
 
         <Plane
@@ -397,8 +502,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/17MemeBistroBar.png`}
+        // videoTexture={`${viteBaseUrl}video/17MemeBistroBar.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkiri09" ? "video/17MemeBistroBar.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/17MemeBistroBar.png" : "img/17MemeBistroBar.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkiri09");
+        // }}
         />
 
         <Plane
@@ -410,8 +527,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-19.70}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        // texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        // texture={`${viteBaseUrl}img/2VirtualPhD.png`}
+        videoTexture={`${viteBaseUrl}video/2VirtualPhD.mp4`}
+
+        // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan01" ? "video/2VirtualPhD.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/2VirtualPhD.png" : "img/2VirtualPhD.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan01");
+        // }}
         />
 
         <Plane
@@ -423,8 +552,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/4BYD.png`}
+        // videoTexture={`${viteBaseUrl}video/4BYD.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan02" ? "video/4BYD.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/4BYD.png" : "img/4BYD.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan02");
+        // }}
         />
 
         <Plane
@@ -436,8 +577,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/6Environmental.png`}
+        // videoTexture={`${viteBaseUrl}video/6Environmental.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan03" ? "video/6Environmental.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/6Environmental.png" : "img/6Environmental.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan03");
+        // }}
         />
 
         <Plane
@@ -449,8 +602,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/8SabahVirtualTravelFair.png`}
+        // videoTexture={`${viteBaseUrl}video/8SabahVirtualTravelFair.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan04" ? "video/8SabahVirtualTravelFair.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/8SabahVirtualTravelFair.png" : "img/8SabahVirtualTravelFair.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan04");
+        // }}
         />
 
         <Plane
@@ -462,8 +627,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/10VirtualSalesdrMCT.png`}
+        // videoTexture={`${viteBaseUrl}video/10VirtualSalesdrMCT.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan05" ? "video/10VirtualSalesdrMCT.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/10VirtualSalesdrMCT.png" : "img/10VirtualSalesdrMCT.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan05");
+        // }}
         />
 
         <Plane
@@ -475,8 +652,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/12EdenVirtualWorld.png`}
+        // videoTexture={`${viteBaseUrl}video/12EdenVirtualWorld.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan06" ? "video/12EdenVirtualWorld.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/12EdenVirtualWorld.png" : "img/12EdenVirtualWorld.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan06");
+        // }}
         />
 
         <Plane
@@ -488,8 +677,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/14VirtualAngelica.png`}
+        // videoTexture={`${viteBaseUrl}video/14VirtualAngelica.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan07" ? "video/14VirtualAngelica.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/14VirtualAngelica.png" : "img/14VirtualAngelica.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan07");
+        // }}
         />
 
       <Plane
@@ -501,8 +702,20 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/16VirtualBazaar.png`}
+        // videoTexture={`${viteBaseUrl}video/16VirtualBazaar.mp4`}
+
+         // videoTexture={
+        //   isVisible?.state == true && isVisible?.name == "tvkanan08" ? "video/16VirtualBazaar.mp4" : null
+        // }
+
+        // texture={
+        //   isVisible?.state == false ? "img/16VirtualBazaar.png" : "img/16VirtualBazaar.png"
+        // }
+
+        // onClick={(e) => {
+        //   movePlayer(e, "tvkanan08");
+        // }}
         />
 
 
@@ -643,6 +856,14 @@ const Game = () => {
               setModal(true);
             }}
           >
+
+          <Find
+            name="tvkiri01"
+            onClick={() => {
+              setVideoPlay(true);
+            }}
+          >
+
             {mouseOver && (
               <HTML>
                 <div>
