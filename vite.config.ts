@@ -4,6 +4,6 @@ import react from "@vitejs/plugin-react";
 //vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // base: "/basiir/test22/",
+  // base: "/basiir/test24/",
   base: "/",
 });

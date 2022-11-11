@@ -223,7 +223,7 @@ const Game = () => {
       />
 
       <World>
-        <LingoEditor />
+        {/* <LingoEditor /> */}
         {/* <Library /> */}
         {/* <Toolbar /> */}
         {/* <Editor /> */}
@@ -233,8 +233,8 @@ const Game = () => {
           //SMAA = care performace
           // antiAlias="SSAA"
 
-          // defaultLightScale={0.3}
-          skybox="skyBox/sky.jpg"
+          defaultLightScale={0.4}
+          // skybox="skyBox/sky.jpg"
           pixelRatio={5}
         />
         <Model
@@ -292,8 +292,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        // texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        // texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -305,8 +305,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -318,8 +318,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -331,8 +331,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -344,8 +344,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -357,8 +357,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
         
 
@@ -371,8 +371,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -384,8 +384,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}  
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}  
         />
 
         <Plane
@@ -397,8 +397,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={20}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -410,8 +410,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-19.70}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        // texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        // texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -423,8 +423,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -436,8 +436,8 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
         <Plane
@@ -449,24 +449,63 @@ const Game = () => {
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
-<Plane
-        name="tvkanan04"
+        <Plane
+        name="tvkanan05"
         x={735.63}
         y={189.62}
-        z={751.29}
+        z={-598.72}
         scaleX={5.73}
         scaleY={3.72}
         rotationY={-20.00}
         // normalScale={{ isVector2: true | 1 | "isVector" }}
-        texture={`${viteBaseUrl}/img/1SingaporeFoodFestival2022.png`}
-        // videoTexture={`${viteBaseUrl}/video/1SingaporeFoodFestival2022.mp4`}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
         />
 
-        
+        <Plane
+        name="tvkanan06"
+        x={735.63}
+        y={189.62}
+        z={-2117.39}
+        scaleX={5.73}
+        scaleY={3.72}
+        rotationY={-20.00}
+        // normalScale={{ isVector2: true | 1 | "isVector" }}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        />
+
+        <Plane
+        name="tvkanan07"
+        x={735.63}
+        y={189.62}
+        z={-3642.65}
+        scaleX={5.73}
+        scaleY={3.72}
+        rotationY={-20.00}
+        // normalScale={{ isVector2: true | 1 | "isVector" }}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        />
+
+      <Plane
+        name="tvkanan08"
+        x={735.63}
+        y={189.62}
+        z={-5162.10}
+        scaleX={5.73}
+        scaleY={3.72}
+        rotationY={-20.00}
+        // normalScale={{ isVector2: true | 1 | "isVector" }}
+        texture={`${viteBaseUrl}img/1SingaporeFoodFestival2022.png`}
+        // videoTexture={`${viteBaseUrl}video/1SingaporeFoodFestival2022.mp4`}
+        />
+
+
          {/* 
         *** End of TV PANEL 
         */}
